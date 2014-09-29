@@ -18,4 +18,4 @@ cabal-version:       >=1.8
 executable sensenet
   main-is: main.hs
   -- other-modules:       
-  build-depends:       base ==4.6.*, containers
+  build-depends:       base ==4.6.*, containers, bytestring, stm, aeson
